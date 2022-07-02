@@ -7,6 +7,9 @@
         <entry key="app/src/main/res/layout/good_view_holder.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/image_item.xml" value="0.11666666666666667" />
         <entry key="app/src/main/res/layout/product_grid2_view_holder.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/product_grid2_view_holder_item.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/product_grid2_view_holder_old.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/product_grid2_view_holder_plane.xml" value="0.15572916666666667" />
         <entry key="app/src/main/res/layout/product_view_holder.xml" value="0.11666666666666667" />
         <entry key="app/src/main/res/layout/text_view_holder.xml" value="0.22056159420289856" />
       </map>

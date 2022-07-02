@@ -12,7 +12,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private val adapter = SampleAdapter()
-    private val recyclerViewPool = RecyclerView.RecycledViewPool()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                 return adapter.items.getOrNull(position)?.spanSize ?: -1
              }
         }
+
         rv.layoutManager = lm
         rv.adapter = adapter
 

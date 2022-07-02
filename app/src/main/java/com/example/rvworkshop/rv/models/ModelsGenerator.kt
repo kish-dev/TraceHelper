@@ -8,12 +8,13 @@ object ModelsGenerator {
         val result = mutableListOf<BaseRvModel>()
 
         for (i in 0..1000) {
-            val items = when(Random.nextInt(1, 4)){
-                1 -> generateProductsGrid2()
-                2 -> generateProduct()
-                3 -> generateText()
-                else -> emptyList()
-            }
+            val items = generateProductsGrid2()
+//            val items = when(Random.nextInt(1, 4)){
+//                1 -> generateProductsGrid2()
+//                2 -> generateProduct()
+//                3 -> generateText()
+//                else -> emptyList()
+//            }
 
             result.addAll(items)
         }

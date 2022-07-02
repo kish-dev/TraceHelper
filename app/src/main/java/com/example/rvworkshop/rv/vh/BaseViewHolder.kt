@@ -15,7 +15,6 @@ abstract class BaseViewHolder<T : BaseRvModel>(
         (model as? T)?.let {
             bindModel(it)
         }
-
     }
 
     protected abstract fun bindModel(model: T)
